@@ -4,6 +4,7 @@
 
 🧠 Teoría: Cada tenancy tiene un dominio predeterminado.
 
+
 ## 🔍 Paso a paso
 
 1. Ingresé al menú de navegación de Oracle Cloud.
