@@ -10,6 +10,7 @@
 2. Fui a "Identity & Security" > "Domains".
 3. Encontré el dominio por defecto ya creado automáticamente.
 
-![Paso 1: Menú principal](./screenshots/paso1-menu.png)
-![Paso 2: Sección Domains](./screenshots/paso2-domains.png)
-![Paso 3: Default Domain](./screenshots/paso3-default-domain.png)
+![Paso 1: Menú principal](../screenshots/01-default-domain/paso1-menu.png)
+![Paso 2: Sección Domains](../screenshots/01-default-domain/paso2-domains.png)
+![Paso 3: Default Domain](../screenshots/01-default-domain/paso3-default-domain.png)
+
