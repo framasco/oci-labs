@@ -43,3 +43,4 @@ Objetivo: Restringir la creación de VCN en el compartimento Labs.
 
 3. Intentar crear una VCN, si no lo permite, la Quota se creo correctamente.
    ![Paso 3](../screenshots/07-Compartment-Quotas/03-07-Compartment-Quotas.png)
+   ![Paso 3](../screenshots/07-Compartment-Quotas/03A-07-Compartment-Quotas.png)
