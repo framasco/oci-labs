@@ -34,5 +34,5 @@ bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scrip
 
 5. Crear un bucket desde la instancia creada en el punto B.   
    
-   ![Paso 5](../screenshots/Dynamic-Group/04-Dynamic-Group.png)
-   ![Paso 5](../screenshots/Dynamic-Group/04B-Dynamic-Group.png) 
+   ![Paso 5](../screenshots/Dynamic-Group/05-Dynamic-Group.png)
+   ![Paso 5](../screenshots/Dynamic-Group/05B-Dynamic-Group.png)   
