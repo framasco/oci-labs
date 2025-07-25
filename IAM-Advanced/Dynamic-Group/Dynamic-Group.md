@@ -1,38 +1,38 @@
 Dynamic-Group.md
-
 🧩 Ejercicio
-Se desea que el grupo dinamico GroupDevTeam pueda gestionar object storage en el compartimento Labs
+El objetivo es permitir que el grupo dinámico GroupDevTeam pueda gestionar recursos de Object Storage en el compartimento Labs.
 
-Pasos previo.
-A- Crear una VCN en el compartimento Labs, la misma debe tener una ip publica.
-B- Crear una instancia en el compartimento Labs, y asociarla la ip publica de la VCN del punto A.
-C- Se debe poner conectar a la instacia desde Cloud Shell.
-  
+🔧 Pasos previos
+A. Crear una VCN en el compartimento Labs, asegurándose de que tenga una IP pública.
+B. Crear una instancia en ese mismo compartimento y asociarle la IP pública de la VCN del paso anterior.
+C. Confirmar que es posible conectarse a la instancia desde Cloud Shell.
+
 ---
 ## 🔍 Paso a paso
 
-1. Desde Cloud Shell con conectamos vía ssh a la instancia creada en el punto B.  
-
+1.  Conectarse por SSH desde Cloud Shell a la instancia creada.
+	Policy necesaria:
     allow group 'labs'/'DevTeam' to manage object-family in compartment Labs
 	
    ![Paso 1](../screenshots/Dynamic-Group/01-Dynamic-Group.png)
 
-2. Luego verificamos si esta instalado OCI CLI, si no lo esta se puede instalar ejecutando este comando:
+2. Verificar si la instancia tiene el OCI CLI instalado.
+Si no lo está, se puede instalar con este comando:
 bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh)".
 
    ![Paso 2](../screenshots/Dynamic-Group/02-Dynamic-Group.png)
 
-3. Crear el grupo dinamico GroupDevTeam en el dominio Labs.
+3. Crear el grupo dinámico GroupDevTeam en el dominio de identidad Labs.
 
    ![Paso 3](../screenshots/Dynamic-Group/03-Dynamic-Group.png)
    ![Paso 3](../screenshots/Dynamic-Group/03B-Dynamic-Group.png)
    ![Paso 3](../screenshots/Dynamic-Group/03C-Dynamic-Group.png)   
    
-4. Autorizar al grupo dinamico mediante policies.   
+4. Crear la política que autoriza al grupo dinámico. 
    
    ![Paso 4](../screenshots/Dynamic-Group/04-Dynamic-Group.png)
 
-5. Crear un bucket desde la instancia creada en el punto B.   
+5. Probar la configuración intentando crear un bucket desde la instancia.   
    
    ![Paso 5](../screenshots/Dynamic-Group/05-Dynamic-Group.png)
    ![Paso 5](../screenshots/Dynamic-Group/05B-Dynamic-Group.png)   
