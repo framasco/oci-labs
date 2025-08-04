@@ -1,8 +1,11 @@
-aEste ejercicio te mostrará cómo trabajar con tablas de rutas (Route Tables) en Oracle Cloud Infrastructure. Aprenderás a:
+
+Este ejercicio te mostrará cómo trabajar con tablas de rutas (Route Tables) en Oracle Cloud Infrastructure. Aprenderás a:
 
 Crear una nueva tabla de rutas.
 
 Agregar reglas de ruteo.
+
+Asociar la tabla a una subnet específica.
 
 ---
 ## Paso a paso
