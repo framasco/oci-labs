@@ -1,4 +1,8 @@
-Este ejercicio te mostrará cómo puede trabajar con tablas de rutas (Route Tables), como crear una nueva tabla de rutas y como agregar nuevas reglas.
+aEste ejercicio te mostrará cómo trabajar con tablas de rutas (Route Tables) en Oracle Cloud Infrastructure. Aprenderás a:
+
+Crear una nueva tabla de rutas.
+
+Agregar reglas de ruteo.
 
 ---
 ## Paso a paso
@@ -14,23 +18,23 @@ Este ejercicio te mostrará cómo puede trabajar con tablas de rutas (Route Tabl
    ![Paso 2](../screenshots/Route-Tables/02-Route-Tables.png)
    ![Paso 2](../screenshots/Route-Tables/02B-Route-Tables.png)
 
-3. Crear un Internet Gateway en la VCN creada manualmente en el paso 1.
+3. Crear un Internet Gateway en la misma VCN.
 
    ![Paso 3](../screenshots/Route-Tables/03-Route-Tables.png)
    ![Paso 3](../screenshots/Route-Tables/03B-Route-Tables.png)
    
-4. Agregar una regla de tabla al Route Table Default.
+4. Agregar una regla de ruteo a la tabla de rutas por defecto (Default Route Table) de la VCN.
    
    ![Paso 4](../screenshots/Route-Tables/04-Route-Tables.png)
    ![Paso 4](../screenshots/Route-Tables/04B-Route-Tables.png)
    ![Paso 4](../screenshots/Route-Tables/04C-Route-Tables.png)
 
-5. Crear un Route Tables.   
+5. Crear una nueva tabla de rutas (Route Table).
    
    ![Paso 5](../screenshots/Route-Tables/05-Route-Tables.png)
    ![Paso 5](../screenshots/Route-Tables/05B-Route-Tables.png)   
    
-6. Asociar el Route Tables creada en el punto 5 a la subnet creada en el punto 2.    
+6. Asociar la nueva tabla de rutas creada en el paso 5 a la subnet creada en el paso 2.
 
    ![Paso 6](../screenshots/Route-Tables/06-Route-Tables.png)
    ![Paso 6](../screenshots/Route-Tables/06B-Route-Tables.png)   
