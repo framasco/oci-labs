@@ -59,6 +59,27 @@ Configura una Private Network definition list.
 9- Conexión a la instancia vía SSH
 Una vez que la conexión esté establecida, conéctate a la instancia utilizando SSH a través de su IP privada.
 
-   ![Paso 8](../screenshots/Service-Gateway/09-Service-Gateway.png)
+   ![Paso 9](../screenshots/Service-Gateway/09-Service-Gateway.png)
    
+10- instalar CLI de OCI Configurarlo.
+bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh)"
+
+   ![Paso 10](../screenshots/Service-Gateway/10-Service-Gateway.png)
+   ![Paso 10](../screenshots/Service-Gateway/10B-Service-Gateway.png)
+   ![Paso 10](../screenshots/Service-Gateway/10C-Service-Gateway.png)
+   ![Paso 10](../screenshots/Service-Gateway/10D-Service-Gateway.png)
+   ![Paso 10](../screenshots/Service-Gateway/10E-Service-Gateway.png)
    
+11- Interactuar con el Bucket desde la instancia.
+
+
+Eliminamos la entrada del NAT en el Route Table Default.
+   ![Paso 11](../screenshots/Service-Gateway/11-Service-Gateway.png)  
+
+Agregamos el SGW (Service Gateway) al Route Table Default.
+   ![Paso 11](../screenshots/Service-Gateway/11B-Service-Gateway.png)  
+
+Creamos un archivo text.txt desde la instancia en el Bucket creado en el punto 6.
+oci os object put --bucket-name DemoBucket --file text.txt
+   ![Paso 11](../screenshots/Service-Gateway/11C-Service-Gateway.png)     
+   ![Paso 11](../screenshots/Service-Gateway/11D-Service-Gateway.png)
