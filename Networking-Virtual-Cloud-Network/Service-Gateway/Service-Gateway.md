@@ -41,7 +41,7 @@ Procede a crear un Bucket en el servicio de Object Storage.
 7- Creación de una instancia
 Crea una nueva instancia asociándola al Service Gateway que configuraste en el paso 3.
 
-   ![Paso 7](../screenshots/Service-Gateway/07A-Service-Gateway.png)
+   ![Paso 7](../screenshots/Service-Gateway/07-Service-Gateway.png)
    ![Paso 7](../screenshots/Service-Gateway/07B-Service-Gateway.png)
    ![Paso 7](../screenshots/Service-Gateway/07C-Service-Gateway.png)
    ![Paso 7](../screenshots/Service-Gateway/07D-Service-Gateway.png)
@@ -52,13 +52,13 @@ Crea una nueva instancia asociándola al Service Gateway que configuraste en el 
 8- Creación de una definición de red privada
 Configura una Private Network definition list.
 
-   ![Paso 8](../screenshots/Service-Gateway/08A-Service-Gateway.png)
+   ![Paso 8](../screenshots/Service-Gateway/08-Service-Gateway.png)
    ![Paso 8](../screenshots/Service-Gateway/08B-Service-Gateway.png)
    ![Paso 8](../screenshots/Service-Gateway/08C-Service-Gateway.png)   
    
 9- Conexión a la instancia vía SSH
 Una vez que la conexión esté establecida, conéctate a la instancia utilizando SSH a través de su IP privada.
 
-   ![Paso 8](../screenshots/Service-Gateway/09A-Service-Gateway.png)
+   ![Paso 8](../screenshots/Service-Gateway/09-Service-Gateway.png)
    
    
