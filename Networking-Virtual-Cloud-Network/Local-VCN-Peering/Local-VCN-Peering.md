@@ -32,8 +32,6 @@ Repite el mismo proceso en la página de detalles de Demovcn-B para crear LPG-B
    ![Paso 2](../screenshots/Local-VCN-Peering/02-Local-VCN-Peering.png)
    ![Paso 2](../screenshots/Local-VCN-Peering/02B-Local-VCN-Peering.png)
    ![Paso 2](../screenshots/Local-VCN-Peering/02C-Local-VCN-Peering.png)
-   ![Paso 2](../screenshots/Local-VCN-Peering/02D-Local-VCN-Peering.png)   
-   
    
    
 Paso 3: Establecer la conexión de Peering
