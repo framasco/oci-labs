@@ -45,7 +45,7 @@ Allow group grupo_devops to manage instance-family in compartment Labs
 Allow group grupo_devops to manage virtual-network-family in compartment Labs
 Allow group grupo_devops to manage load-balancers in compartment Labs  
 
-   ![Paso 1](../screenshots/Public-Load-Balancer/01C-Public-Load-Balancer.png)
+   ![Paso 1](../screenshots/Public-Load-Balancer/01D-Public-Load-Balancer.png)
    
 Paso 2: Preparar la Infraestructura
 Ahora, con las políticas configuradas, te loguearás como el usuario lb_admin para crear los siguientes componentes.
