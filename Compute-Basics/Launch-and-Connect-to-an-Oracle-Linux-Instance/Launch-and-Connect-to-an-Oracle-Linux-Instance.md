@@ -1,3 +1,5 @@
+Launch-and-Connect-to-an-Oracle-Linux-Instance.md
+
 🛠️ Laboratorio: Lanzar y Conectarse a una Instancia de Oracle Linux
 Objetivo: Crear una instancia de cómputo en OCI con Oracle Linux.
 
@@ -34,15 +36,15 @@ En la sección "Boot Volume", puedes dejar los valores por defecto (normalmente 
 Haz clic en "Create". La instancia comenzará su proceso de aprovisionamiento.
 
 
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01-Compute-Generate-SSH-Keypair.png)
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01B-Compute-Generate-SSH-Keypair.png)
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01C-Compute-Generate-SSH-Keypair.png)
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01D-Compute-Generate-SSH-Keypair.png)
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01E-Compute-Generate-SSH-Keypair.png)
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01F-Compute-Generate-SSH-Keypair.png)
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01G-Compute-Generate-SSH-Keypair.png)
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01H-Compute-Generate-SSH-Keypair.png)   
-   ![Paso 1](../screenshots/Compute-Generate-SSH-Keypair/01I-Compute-Generate-SSH-Keypair.png)      
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01B-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01C-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01D-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01E-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01F-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01G-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01H-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)   
+   ![Paso 1](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/01I-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)      
    
 6. Conectarse a la Instancia por Cloud Shell
 Una vez que la instancia esté activa, puedes conectarte a ella usando Cloud Shell.
@@ -51,6 +53,6 @@ Obtén la IP pública: En la página de detalles de la instancia, copia su IP p�
 
 Abre Cloud Shell: Haz clic en el icono de Cloud Shell en la esquina superior derecha de la consola de OCI.
 
-   ![Paso 2](../screenshots/Compute-Generate-SSH-Keypair/02-Compute-Generate-SSH-Keypair.png)
-   ![Paso 2](../screenshots/Compute-Generate-SSH-Keypair/02B-Compute-Generate-SSH-Keypair.png)
+   ![Paso 2](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/02-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
+   ![Paso 2](../screenshots/Launch-and-Connect-to-an-Oracle-Linux-Instance/02B-Launch-and-Connect-to-an-Oracle-Linux-Instance.png)
    
